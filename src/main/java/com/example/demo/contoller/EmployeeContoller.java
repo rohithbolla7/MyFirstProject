@@ -20,7 +20,7 @@ import com.example.demo.service.EmployeeService;
 
 @RestController
 @RequestMapping("/emp")
-public class EmployeeContoller implements EmployeeContollerInterface
+public class EmployeeContoller  
 {
 	@Autowired
 	EmployeeService employeeService;
